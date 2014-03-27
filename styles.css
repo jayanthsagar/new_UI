@@ -1,0 +1,231 @@
+.text{
+	float:right;
+
+}
+body,*{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+.text>h2>span{
+	font-size: 3.5em;
+	color:#bc2b67;
+}
+.text>h2:nth-child(2)>span{
+	color:#338ac4;
+}
+.text>h2:nth-child(1){
+	margin-top:12%;
+}
+.text>h2{
+	margin:5px;
+	color:#fff;
+	margin:0;
+}
+.text>h2{
+	font-size: 20px;
+	line-height: 200%;
+}
+.text>h2:nth-child(3){
+	font-size: 2em;
+	line-height: 100%;
+}
+.text .btn{
+	margin-top:10px;
+}
+.btn-default {
+color: #FFF;
+background-color: #5cb85c;
+border-color:#fff;
+}
+
+.jumbotron{
+	background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+
+
+}
+.navbar-inverse {
+background-color: transparent;
+border-color: transparent;
+}
+hr{
+	height: 1px;
+	background-color: RGBA(100, 100, 100, 0.35);;
+	border:0;
+	margin:0;
+
+}
+.navbar-inverse .navbar-brand {
+	color: black;
+	font-size:35px;
+
+}
+h2{
+	color:#666666;
+}
+#navbar-thin{
+	background-color: #293016;
+}
+#side-nav{
+	position: absolute;
+	top:50px;
+	
+	
+}
+#side-nav>li:nth-child(1){
+	padding-top: 20px;
+}
+#side-nav>li:nth-child(9){
+	padding-bottom: 40px;
+}
+.nav-pills>li>a {
+border-radius: 0px;
+color:#9a9a9a;
+margin-left: 30px;
+font-size: 1.2em;
+border-right: 7px solid #d6d4d4;
+
+}
+.nav-stacked>li+li {
+margin-top: 0px;
+}
+#container-inner{
+	/*margin:0px;*/
+	padding: 0px;
+	}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	color: #707070;
+	background-color: #ffffff;
+	border-top:3px solid #d6d4d4;
+	border-left:3px solid #d6d4d4;
+	border-bottom:3px solid #d6d4d4;
+	border-right:none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.nav-pills>li>a:hover{
+	background-color: #fff;
+	border-right: 10px solid #fff;
+	color:#848484;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+
+}
+.row .col .col-lg-12{
+	max-width: 50%;
+	display:block;
+	float:right;
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+float: right;
+}
+.row{
+	margin-top: 10px;
+}
+.col-lg-12 {
+width: 77%;
+}
+.thumbnail>img{
+	float:left;
+	padding:2%;
+	max-width:20%;
+}
+@media all and (max-width: 1200px) and (min-width: 822px){
+	.col-lg-12{
+		width:70%;
+		float:left;
+		margin-left:280px;
+	}
+	.thumbnail>img {
+		max-width: 25%;
+	}
+}
+@media all and (max-width: 821px) and (min-width: 500px){
+	.col-lg-12{
+		width:60%;
+		float:left;
+		margin-left:40%;
+
+
+	}
+	.thumbnail>img {
+		max-width: 40%;
+	}
+	#side-nav{
+		width:38%;
+	}
+	#side-nav>li{
+		font-size:0.8em;
+	}
+}
+
+#jumbotron-about{
+ 	background-image:url('images/about.png'); 
+	margin-bottom: 5%;
+}
+.text-about{
+	float:right;
+	color:#fff;
+	font-family: 'Varela Round', sans-serif;
+
+}
+.text-about>h2{
+	color:#fff;
+	font-size:2.5em;
+	margin-top: -5px;
+}
+.text-about>h1>span{
+	font-size:1.6em;
+	font-family: 'Maven Pro', sans-serif;
+}
+.text-about>h1{
+	margin-top: -45px;
+	margin-left: -25px;
+}
+.text-about>h2>span{
+	font-size:1.6em;
+	
+}
+.container>p{
+	
+	font-size: 1.3em;
+	color:#6b6a6a;
+	font-family: 'Didact Gothic', sans-serif;
+	line-height: 170%;
+
+}
+.experiment-card {
+         position:relative; 
+         /*padding: 1.5em 2em 1.5em 2em;*/
+         border-radius: 1em;
+         border:0px solid #3652a4;
+         min-height: 0.5%;
+         color:  rgb(80, 80, 80); /* #333 */
+         margin-top: 1em;
+         background-color: #ced8ef;
+      }
+.tile {
+    text-decoration: none;
+    display: block;
+    
+    float: left;
+    margin: 0 3px 3px 0;
+    -webkit-transform: scale(1,1);
+    /*-webkit-transition-timing-function: ease-out;*/
+    /*-webkit-transition-duration: 250ms;*/
+    -moz-transform: scale(1,1);
+    /*-moz-transition-timing-function: ease-out;*/
+    /*-moz-transition-duration: 250ms;*/
+}
+.tile:hover {
+    -webkit-transform: scale(1.05,1.07);
+    /*-webkit-transition-timing-function: ease-out;*/
+    /*-webkit-transition-duration: 250ms;*/
+    -moz-transform: scale(1.05,1.07);
+    /*-moz-transition-timing-function: ease-out;*/
+    /*-moz-transition-duration: 250ms;*/
+    position: relative;
+    z-index: 99;
+}
